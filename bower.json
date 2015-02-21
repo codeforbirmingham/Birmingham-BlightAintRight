@@ -8,14 +8,6 @@
   "description": "Birmingham Land Bank Authority",
   "license": "MIT",
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "vendor/assets/bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "bootstrap": "~3.3.2"
   }
