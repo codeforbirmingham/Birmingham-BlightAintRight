@@ -16,11 +16,10 @@
 /tmp
 
 .idea
-.keep
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
-**/bower_components
+bower_components/
