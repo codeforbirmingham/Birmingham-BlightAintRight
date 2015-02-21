@@ -1,0 +1,105 @@
+<!doctype HTML>
+<html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/seiyria-bootstrap-slider/js/bootstrap-slider.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="col-xs-12 progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+      <span class="sr-only">60% Complete</span>
+    </div>
+  </div>
+  <div class="col-xs-12 page-header">
+    Report
+  </div>
+  <div class="map col-xs-12">
+    <h2>use an address</h2>
+    <h3>or</h3>
+    <h2> use my location</h2>
+  </div>
+  <div class="address col-xs-12">
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">@</span>
+      <input type="text" class="form-control" placeholder="address" aria-describedby="basic-addon1">
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <h3>In your opinion, what is the nature of decay</h3>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">bad</a>
+      </li>
+      <li role="presentation"><a href="#">worse</a>
+      </li>
+      <li role="presentation"><a href="#">terrible</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-xs-12">
+    <h3>How big is the property</h3>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">1 story</a>
+      </li>
+      <li role="presentation"><a href="#">2 story</a>
+      </li>
+      <li role="presentation"><a href="#">3 stories +</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-xs-12">
+    <h3>How big is the property</h3>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">1 story</a>
+      </li>
+      <li role="presentation"><a href="#">2 story</a>
+      </li>
+      <li role="presentation"><a href="#">3 stories +</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-xs-12">
+    <h3>Give us a better idea of the property</h3>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">burn damage</a>
+      </li>
+      <li role="presentation"><a href="#">overgrown</a>
+      </li>
+      <li role="presentation"><a href="#">missing shingles</a>
+      </li>
+      <li role="presentation"><a href="#">trash</a>
+      </li>
+      <li role="presentation"><a href="#">abandoned cars</a>
+      </li>
+      <li role="presentation"><a href="#">occupied</a>
+      </li>
+    </ul>
+  </div>
+  <div class="overgrown col-xs-12">
+    <h3>How Overgrown is the property?</h3>
+    Some overgrowth<input id="overgrown" data-slider-id='OvergrownSlider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>Like a wild forest.
+  </div>
+  <div class="burnt col-xs-12">
+    <h3>how burnt is the property?</h3>
+    Some burn damage<input id="BurnSlider" data-slider-id='BurnSlider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>the 7th layer of hell.
+  </div>
+  <div class="shingles col-xs-12">
+    <h3>How many of the shingles are missing?</h3>
+    Some shingles <input id="shingles" data-slider-id='ShinglesSlider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/> there is no roof.
+  </div>
+  <div class="shingles col-xs-12">
+    <h3>How much trash is on the lot?</h3>
+    Some trash <input id="trash" data-slider-id='TrashSlider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/> like the great pacific trashpile.
+  </div>
+  <div class="footer col-xs-12">
+    <p>
+      Resources
+    </p>
+  </div>
+</body>
+
+</html>
