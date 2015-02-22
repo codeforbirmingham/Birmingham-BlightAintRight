@@ -56,6 +56,9 @@ GEM
     arbre (1.0.3)
       activesupport (>= 3.0.0)
     arel (5.0.1.20140414130214)
+    autoprefixer-rails (5.1.7)
+      execjs
+      json
     aws-sdk (2.0.27)
       aws-sdk-resources (= 2.0.27)
     aws-sdk-core (2.0.27)
@@ -68,6 +71,9 @@ GEM
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.3)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
     bourbon (4.2.0)
       sass (~> 3.4)
       thor
@@ -247,6 +253,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin!
   aws-sdk
+  bootstrap-sass (~> 3.3.3)
   byebug
   coffee-rails (~> 4.1.0)
   country_select!
