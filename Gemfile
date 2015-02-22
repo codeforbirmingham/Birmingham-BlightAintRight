@@ -5,7 +5,9 @@ gem 'rails', '4.1.8'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-gem 'bootstrap-sass', '~> 3.3.3'
+# Use bootstrap
+gem 'therubyracer'
+gem 'less-rails-bootstrap'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap-sprockets
-//= require_tree .
+//= require jquery_ujs
+//= require twitter/bootstrap
 
 
 // Instantiate a slider
