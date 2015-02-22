@@ -11,4 +11,5 @@
  * file per style scope.
  *= require twitter/bootstrap
  *= require custom_bootstrap/custom_bootstrap
+ *= require fuckitstyles
  */
