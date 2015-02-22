@@ -19,4 +19,18 @@ ActiveAdmin.register Property do
     i.column :updated_at
     i.actions
   end
+
+  sidebar "Property Details", only: :show do
+    attributes_table_for property do
+      row :street_number
+      row :street_name
+      row :city
+      row :state
+      row :country
+      row :zipcode
+      row 'Image' do |property|
+        image_tag(PropertyPhoto.where(property_id: property.id).first.photo.url)
+      end
+    end
+  end
 end
