@@ -1,4 +1,4 @@
-<body>
+<body onload="initialize()">
 <div class="col-xs-12 progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
     <span class="sr-only">60% Complete</span>
@@ -8,14 +8,13 @@
   Report
 </div>
 <div class="map col-xs-12">
-  <h2>use an address</h2>
-  <h3>or</h3>
-  <h2> use my location</h2>
+  <h2>Please enter your address:</h2>
 </div>
 <div class="address col-xs-12">
-  <div class="input-group">
+  <div class="input-group" id="locationField">
     <span class="input-group-addon" id="basic-addon1">@</span>
-    <input type="text" class="form-control" placeholder="address" aria-describedby="basic-addon1">
+    <input type="text" class="form-control" id="autocomplete" placeholder="Enter your address" 
+    onFocus="geolocate()" aria-describedby="basic-addon1">
   </div>
 </div>
 <div class="col-xs-12">
